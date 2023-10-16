@@ -2,7 +2,7 @@
 name = "rpixiv"
 version = "0.1.0"
 authors = ["Mateusz Czarnecki (DemwE)"]
-description = "A simple CLI tool for download random nekos."
+description = "A simple CLI tool for download pix from pixiv.net"
 repository = "https://github.com/DemwE/rpixiv"
 license = "GPL-3.0"
 readme = "README.md"
