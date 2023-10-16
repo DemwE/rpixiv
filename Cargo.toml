@@ -1,0 +1,26 @@
+[package]
+name = "rpixiv"
+version = "0.1.0"
+authors = ["Mateusz Czarnecki (DemwE)"]
+description = "A simple CLI tool for download random nekos."
+repository = "https://github.com/DemwE/rpixiv"
+license = "GPL-3.0"
+readme = "README.md"
+categories = ["command-line-utilities"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "4.4.6", features = ["derive"]}
+colorful = "0.2.2"
+directories = "5.0.1"
+dirs = "5.0.1"
+indicatif = {version = "0.17.7", features = ["improved_unicode", "unicode-segmentation"]}
+pixiv = "0.2.0"
+reqwest = {version = "0.11.21", features = ["blocking", "json", "stream"]}
+rpassword = "7.2.0"
+serde = { version = "1.0.188", features = ["derive"] }
+serde_json = "1.0.107"
+tokio = {version = "1.32.0" , features = ["full"]}
+toml = "0.8.2"
